@@ -1,0 +1,627 @@
+* {
+    margin: 0 ;
+    padding: 0; 
+    
+}
+
+body {
+    width: 1440px;
+    font-family: 'Roboto', sans-serif;
+}
+
+.hero-bg{
+    width: 1440px;
+    height: 700px;
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 0%;
+    bottom: 0%;
+    background: rgba(214, 170, 92, 0.48);
+}
+
+.content {
+    height: 357px;
+    width: 422px;
+    position: absolute;
+    left: 135px;
+    top: 172px;
+    border-radius: 0px;
+}
+
+.content h1 {
+    height: 139px;
+    width: 399px;
+    left: 135px;
+    top: 172px;
+    font-family: Roboto;
+    font-size: 59px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+}
+
+.content p {
+    font-family: Roboto;
+    position: absolute;
+    top: 160px;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+
+}
+
+.content button {
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    left: 0%;
+    bottom: 0%;
+    background: #FFFFFF;
+    border-radius: 5px;
+    color: #D6AA5C;
+
+}
+
+.img-bg-container {
+    height: 740px;
+    width: 467px;
+    left: 808px;
+    top: 15px;
+    border-radius: 0px;
+
+}
+
+.img-bg {
+    background: url('../images/pexels-wherbson-rodrigues-4673418\ 1lady.jpg');
+    position: absolute;
+    height: 483px;
+    width: 423px;
+    left: 812px;
+    top: 143px;
+    border-radius: 0px;
+
+}
+
+.scroll-btn img {
+    position: absolute;
+    width: 80px;
+    height: 80px;
+    left: 663px;
+    top: 660px;
+}
+
+#vector {
+    position: absolute;
+    width: 39px;
+    height: 19.5px;
+    left: 684px;
+    top: 692.5px;
+    
+}
+
+.about-me-img-container {
+    position: absolute;
+    width: 462px;
+    height: 693px;
+    left: 104px;
+    top: 722px;
+    
+}
+
+.about-me-img {
+   background-image: url('../images/9a790b3f3213002a8c938d0d99cc5088\ 1about\ img.jpg');
+   position: absolute;
+   width: 418px;
+   height: 445px;
+   left: 31px;
+   top: 126px;
+
+}
+
+.about-me-container h1 {
+    position: absolute;
+    width: 787px;
+    height: 43px;
+    left: calc(50% - 787px/2 + 69.5px);
+    top: 848px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 82.03%;
+    /* identical to box height, or 43px */
+    align-items: center;
+    text-align: center;
+    color: #D6AA5C;
+}
+
+.line {
+    position: absolute;
+    width: 173px;
+    height: 5px;
+    left: 698px;
+    top: 895px;
+    background: #D6AA5C;
+}
+
+.about-me-container p {
+    position: absolute;
+    width: 670px;
+    height: 300px;
+    left: 662px;
+    top: 966px;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 28px;
+    color: #000000;
+}
+
+.skills-container {
+    position: absolute;
+    width: 1452px;
+    height: 431px;
+    left: -169px;
+    top: 1488px;
+}
+
+.skills-container h1 {
+    height: 43px;
+    width: 787px;
+    left: 0px;
+    top: 0px;
+    font-family: Roboto;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #000000; 
+}
+
+.skills-container p {
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000000;
+    position: absolute;
+    height: 55px;
+    width: 800px;
+    left: 314px;
+    top: 104px;
+   
+}
+
+.line2 {
+    height: 5px;
+    width: 156px;
+    position: absolute;
+    left: 314px;
+    top: 52px;
+    border-radius: 0px;
+    background: #D6AA5C;
+}
+
+progress {
+    height: 26px;
+    width: 496px;
+    
+    border-radius: 0px;
+
+}
+
+progress::-webkit-progress-bar {
+    background-color: #fffdfd;
+    border: 3px solid #D6AA5C;
+    box-sizing: border-box;
+        
+    
+  }
+
+  progress::-webkit-progress-value {
+    background: #D6AA5C;
+  }
+
+
+.adobe {
+    position: absolute;
+    left: 21.9%;
+    right: 45.52%;
+    top: 53.83%;
+    bottom: 41.76%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 82.03%;
+}
+
+#adobe {
+    position: absolute;
+    left: 21.9%;
+    right: 43.94%;
+    top: 61.95%;
+    bottom: 32.02%;
+    
+}
+
+
+
+.html {
+    position: absolute;
+    left: 67.91%;
+    right: -0.48%;
+    top: 54.29%;
+    bottom: 41.3%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 82.03%;
+
+}
+
+#html {
+    position: absolute;
+    left: 67.91%;
+    right: 8.82%;
+    top: 61.95%;
+    bottom: 55.92%;
+}
+
+.css {
+    position: absolute;
+    left: 21.9%;
+    right: 45.52%;
+    top: 84.92%;
+    bottom: 10.67%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 82.03%;
+
+}
+
+#css {
+    position: absolute;
+    left: 21.9%;
+    right: 43.94%;
+    top: 93.97%;
+    bottom: 0%;
+
+}
+
+.javascript {
+    position: absolute;
+    left: 67.91%;
+    right: -0.48%;
+    top: 85.38%;
+    bottom: 10.21%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 82.03%;
+}
+
+#javascript {
+    position: absolute;
+    left: 67.91%;
+    right: -2.07%;
+    top: 93.97%;
+    bottom: 0%;
+}
+
+.projects-container h1 {
+    position: absolute;
+    height: 43px;
+    width: 787px;
+    left: 342px;
+    top: 2124px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 82.03%;
+    text-align: center;
+}
+
+.line3 {
+    position: absolute;
+    top: 2180px;
+    left: 37.69%;
+    height: 5px;
+    width: 200px;
+    background: #D6AA5C;
+}
+
+.project-description {
+    height: 55px;
+    width: 800px;
+    position: absolute;
+    left: 320px;
+    top: 2270px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+}
+
+.project1-img-container {
+    position: absolute;
+    width: 384px;
+    height: 431px;
+    left: 120px;
+    top: 2384px;
+    
+}
+
+.project2-img-container {
+  
+    position: absolute;
+    width: 370px;
+    height: 424px;
+    left: 534px;
+    top: 2395px;
+
+}
+
+.project3-img-container {
+    
+    position: absolute;
+    width: 414px;
+    height: 463px;
+    left: 922px;
+    top: 2403px;
+
+}
+
+.project1-img {
+    background: url("../images/project1.jpg");
+    position: absolute;
+    width: 371px;
+    height: 372px;
+    top: 45px;
+    left: 13px;
+    border-radius: 0px;
+}
+
+.project2-img {
+    background: url('../images/project2.png');
+    width: 371px;
+    height: 372px;
+    position: absolute;
+    top: 34px;
+}
+
+.project3-img {
+    background: url('../images/project3.jpg');
+    position: absolute;
+    top: 26px;
+    left: 12px;
+    width: 371px;
+    height: 372px;
+}
+
+.project1-description {
+    position: absolute;
+    height: 66px;
+    width: 370px;
+    left: 134px;
+    top: 2833px;
+    border-radius: nullpx;
+
+
+}
+
+.project2-description {
+    height: 66px;
+    width: 370px;
+    position: absolute;
+    left: 534px;
+    top: 2833px;
+    border-radius: nullpx;
+
+
+}
+
+.project3-description {
+    height: 66px;
+    width: 370px;
+    position: absolute;
+    left: 935px;
+    top: 2833px;
+    border-radius: nullpx;
+
+}
+
+.contact-form {
+    height: 667px;
+    width: 1368px;
+    position: absolute;
+    left: -85px;
+    top: 3138px;
+    border-radius: 0px;
+
+}
+
+.contact-form h1 {
+    position: absolute;
+    left: 0%;
+    right: 42.47%;
+    top: 0%;
+    bottom: 93.55%;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 52px;
+    line-height: 82.03%;
+    line-height: 43px;
+    letter-spacing: 0em;
+    text-align: center;
+
+}
+
+.line4 {
+    position: absolute;
+    left: 238px;
+    top: 61px;
+    width: 156px;
+    height: 5px;
+    background: #D6AA5C;
+}
+
+.name {
+    height: 25px;
+    width: 288px;
+    position: absolute;
+    left: 238px;
+    top: 108px;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+    border-radius: nullpx;
+
+}
+
+.number {
+    height: 25px;
+    width: 288px;
+    position: absolute;
+    left: 238px;
+    top: 175px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+.address {
+    height: 25px;
+    width: 288px;
+    position: absolute;
+    left: 238px;
+    top: 260px;
+    border-radius: nullpx;
+    font-family: Roboto;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+
+
+}
+
+#name {
+    height: 66px;
+    width: 564px;
+    position: absolute;
+    left: 804px;
+    top: 100px;
+    border-radius: 0px;
+    background: #C4C4C4;
+
+
+}
+
+#number {
+    height: 66px;
+    width: 564px;
+    position: absolute;
+    left: 804px;
+    top: 197px;
+    border-radius: 0px;
+    background: #C4C4C4;
+
+}
+
+#address {
+    height: 271px;
+    width: 564px;
+    position: absolute;
+    left: 804px;
+    top: 295px;
+    border-radius: 0px;
+    background: #C4C4C4;
+
+}
+
+.divider {
+    height: 485.3037109375px;
+    width: 0px;
+    position: absolute;
+    left: 638px;
+    top: 81px;
+    border-radius: 0px;
+    background: #D6AA5C;
+    width: 2px;
+
+}
+
+#cv-btn {
+    height: 60px;
+    width: 200px;
+    border-radius: 5px;
+    border: none;
+    position: absolute;
+    bottom: 0%;
+    border-radius: 5px;
+    color: #ffffff;
+    background: #D6AA5C;
+    position: absolute;
+    right: 0%;
+    bottom: 0%;
+   
+
+}
+
+.openlearn-logo {
+    position: absolute;
+    background-image: url('../images/Open\ Learn_Logo\ 1.png');
+    width: 126px;
+    height: 89px;
+    left: 657px;
+    top: 3902px;
+
+}
+
+
+
+
+
+
+
+
